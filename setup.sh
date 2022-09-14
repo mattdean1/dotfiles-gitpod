@@ -21,5 +21,4 @@ GIT_ALIASES="
     pro = pull --rebase origin master
 "
 
-echo \"$GIT_ALIASES\" >> ~/.gitconfig
- 
+echo "$GIT_ALIASES" >> ~/.gitconfig
