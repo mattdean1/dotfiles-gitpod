@@ -3,7 +3,6 @@
 GIT_ALIASES="
 [alias]
     l = log
-    l = log
     p = pull
     st = status
     co = checkout
@@ -25,4 +24,4 @@ echo "$GIT_ALIASES" >> ~/.gitconfig
 
 git config --global push.default current
 
-cp ~/.dotfiles/.bash_aliases ~/.bash_aliases
+cat ~/.dotfiles/.bash_aliases >> ~/.bash_aliases
